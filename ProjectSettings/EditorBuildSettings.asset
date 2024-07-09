@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene_00.unity
+    guid: c9ac8c55de65813478b6ce4f4babb633
+  - enabled: 1
+    path: Assets/Scenes/Opening_Cartoon.unity
+    guid: a38c164316e39a945b67659f6d707fd7
+  - enabled: 1
+    path: Assets/Scenes/Scene_.01.unity
+    guid: 92c501ad97b69f4459f2bab451d4fbe2
+  m_configObjects: {}
