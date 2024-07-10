@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CCCB962C-4A73-7FB8-1B9F-53A4EBE4A787}</ProjectGuid>
+    <ProjectGuid>{2773DB5D-4F25-CC10-CF13-A485BE15E914}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -1253,15 +1253,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{DE619F93-EFED-FE7C-F5CE-9CAEF9E26372}</Project>
+      <Project>{42FE8478-2FBF-E05F-E7A1-1D5B54E8705D}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{653FD545-9B6F-EA3A-49B7-69991D3FDE8A}</Project>
+      <Project>{62A8A527-8B74-C965-9DF4-6D8BA432CD6E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{2EE8C2F5-366D-BAAB-E05B-953D36E09C40}</Project>
+      <Project>{9B1A10CC-0AC8-D397-E6D3-1516451C499F}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A6DC7A6-8314-722D-9D23-2DDA9607FA91}</ProjectGuid>
+    <ProjectGuid>{ED70FADD-6064-639F-03C2-06175ABAA4F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
@@ -1012,43 +1012,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{93170B38-C568-6DBB-8B8D-9B83CFFA8BC3}</Project>
+      <Project>{E7536C97-0E21-B525-9DD6-6FF731CCCB56}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{E498722A-6E81-3EEB-9A6E-96C3EEA144A0}</Project>
+      <Project>{A8FB9286-965F-8100-AB8D-1A7A0C267FF7}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{9A9031C9-C0CD-DE05-6B5C-ED0E017F7901}</Project>
+      <Project>{DF2A3CA7-14CB-B764-02A9-0ED019EB32C1}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{78EF46C6-2CB3-BCE2-8EF0-5520CF78763B}</Project>
+      <Project>{28C710FF-7A46-C322-A45C-EDF1EEC7FE7F}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{BC451104-5836-1CE5-C049-7C68B56D5F25}</Project>
+      <Project>{FEEE0058-0C38-446E-473F-3DBE8A97541A}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{55618DAA-B7C2-6E6E-E6A2-6BDFEC163E04}</Project>
+      <Project>{02A4A453-21FF-6F26-4094-8A91768F8417}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{C9DC5412-F936-F73C-830E-4FA45381F505}</Project>
+      <Project>{0AD5E631-2521-D4CC-13EC-59F2B22DC02C}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{E98EE235-FA04-8E2C-C6BB-03E8C0716FB0}</Project>
+      <Project>{3ECF40DD-0756-9D65-F0DA-7FA6740CDE53}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{653FD545-9B6F-EA3A-49B7-69991D3FDE8A}</Project>
+      <Project>{62A8A527-8B74-C965-9DF4-6D8BA432CD6E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{2EE8C2F5-366D-BAAB-E05B-953D36E09C40}</Project>
+      <Project>{9B1A10CC-0AC8-D397-E6D3-1516451C499F}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

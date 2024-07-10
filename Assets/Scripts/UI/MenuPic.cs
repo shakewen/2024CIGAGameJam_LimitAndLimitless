@@ -19,13 +19,11 @@ public class MenuPic : MonoBehaviour
         {
             image.sprite = sprites[Count];
             Count++;
+
             if (Count == 7)
                 Count = 0;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.08f);
         }
     }
-    private void FixedUpdate()
-    {
-        Loop();
-    }
+   
 }

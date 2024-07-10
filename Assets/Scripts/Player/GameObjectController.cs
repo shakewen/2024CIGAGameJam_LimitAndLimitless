@@ -176,7 +176,7 @@ public class GameObjectController : MonoBehaviour
             isRobing = !isRobing;
             //切换图片
             
-            collision.GetComponent<SpriteRenderer>().sprite = isRobing? sprites[0] : sprites[1];
+            
             
             if (collision.name == "Rod_Red_Map2")
             {
@@ -188,9 +188,10 @@ public class GameObjectController : MonoBehaviour
 
             }
 
-            if (collision.name == "Rod_Blue_Map3")
+            //黄色拉杆解救动物
+            if (collision.name == "Rod_Yellow_Map3")
             {
-                print(isRobing);
+                
                 //开玻璃门解救动物
                 collision.transform.GetChild(0).gameObject.SetActive(isRobing ? true : false);
                 collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[2] : sprites[3];
@@ -200,16 +201,17 @@ public class GameObjectController : MonoBehaviour
             if (collision.name == "Rod_Green_Map3")
             {
                 //触发拉杆后板子消失，再次拉杆板子出现
-                collision.transform.GetChild(0).gameObject.SetActive(isRobing ? false : true);
+                collision.transform.GetChild(0).gameObject.SetActive(isRobing ? true : false);
+                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[0] : sprites[1];
             }
 
-            //紫色拉杆移动墙壁
-            if (collision.name == "Rod_Purple_Map3")
+            //白色拉杆移动墙壁
+            if (collision.name == "Rod_While_Map3")
             {
                 
                 //使用墙壁移动
                 isMoveWall=!isMoveWall;
-                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[0] : sprites[1];
+                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[4] : sprites[5];
             }
 
 

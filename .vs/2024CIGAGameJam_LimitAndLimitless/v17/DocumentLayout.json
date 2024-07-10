@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|e:\\unityprojects\\2024cigagamejam_limitandlimitless\\assets\\scripts\\cartoon\\cartoonchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cartoon\\cartoonchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\player\\gameobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\gameobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\ui\\menupic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menupic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuPic.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\MenuPic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuPic.cs",
+              "ToolTip": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\MenuPic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MenuPic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T04:31:06.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartoonChange.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "ToolTip": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA0wD4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T04:29:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObjectController.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\GameObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\GameObjectController.cs",
+              "ToolTip": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\GameObjectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\GameObjectController.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAmwO0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T02:59:29.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "E:\\UnityProjects\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:14:51.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
