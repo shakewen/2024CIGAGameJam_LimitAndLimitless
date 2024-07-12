@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\SetSelfMainCamera.cs" />
     <Compile Include="Assets\Scripts\Cartoon\CartoonChange.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSkill.cs" />
+    <Compile Include="Assets\Scripts\ReScene.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />

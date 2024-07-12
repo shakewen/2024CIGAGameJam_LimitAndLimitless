@@ -158,6 +158,7 @@ public class Player : MonoBehaviour
 
     void Jump() 
     {
+        
         if (isJump && isGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);

@@ -34,9 +34,11 @@ public class GameObjectController : MonoBehaviour
 
     private bool isMoveFloor = false;
 
-    private bool isRobing = false;
+   // private bool isRobing = false;
 
     private bool isMoveWall = false;
+
+    public Dictionary<GameObject, bool> isRobingState = new Dictionary<GameObject, bool>();
 
 
     [SerializeField] Sprite[] sprites;
@@ -91,12 +93,13 @@ public class GameObjectController : MonoBehaviour
 
             if (obj.CompareTag("RodItem"))
             {
+                isRobingState.Add(obj, false);
                 if (obj.name == "Rod_Red_Map2")
                 {
                     obj.transform.GetChild(0).gameObject.SetActive(false);
                 }
 
-                if(obj.name == "Rod_Blue_Map3")
+                if(obj.name == "Rod_Yellow_Map3")
                 {
                     obj.transform.GetChild(0).gameObject.SetActive(false);
                 }
@@ -152,9 +155,6 @@ public class GameObjectController : MonoBehaviour
                   
                     
                  
-                
-           
-                
                    
                }
             }
@@ -173,45 +173,46 @@ public class GameObjectController : MonoBehaviour
 
         if (collision.gameObject.tag == "RodItem")
         {
-            isRobing = !isRobing;
+           // isRobing = !isRobing;
             //切换图片
-            
-            
+
+
             
             if (collision.name == "Rod_Red_Map2")
             {
-                print(isRobing);
+                isRobingState[collision.gameObject] =!isRobingState[collision.gameObject];
                 //开玻璃门让主角进入下一个房间
-                collision.transform.GetChild(0).gameObject.SetActive(isRobing? true : false);
-                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[0] : sprites[1];
-                collision.transform.GetChild(1).gameObject.GetComponent<Collider2D>().isTrigger = isRobing ? true : false;
+                collision.transform.GetChild(0).gameObject.SetActive( isRobingState[collision.gameObject]? true : false);
+                collision.GetComponent<SpriteRenderer>().sprite = isRobingState[collision.gameObject] ? sprites[0] : sprites[1];
+                collision.transform.GetChild(1).gameObject.GetComponent<Collider2D>().isTrigger = isRobingState[collision.gameObject] ? true : false;
 
             }
 
             //黄色拉杆解救动物
             if (collision.name == "Rod_Yellow_Map3")
             {
-                
+                isRobingState[collision.gameObject] = !isRobingState[collision.gameObject];
                 //开玻璃门解救动物
-                collision.transform.GetChild(0).gameObject.SetActive(isRobing ? true : false);
-                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[2] : sprites[3];
-                collision.transform.GetChild(1).gameObject.GetComponent<Collider2D>().isTrigger = isRobing ? true : false;
+                collision.transform.GetChild(0).gameObject.SetActive(isRobingState[collision.gameObject] ? true : false);
+                collision.GetComponent<SpriteRenderer>().sprite = isRobingState[collision.gameObject] ? sprites[2] : sprites[3];
+                collision.transform.GetChild(1).gameObject.GetComponent<Collider2D>().isTrigger = isRobingState[collision.gameObject] ? true : false;
             }
 
             if (collision.name == "Rod_Green_Map3")
             {
+                isRobingState[collision.gameObject] = !isRobingState[collision.gameObject];
                 //触发拉杆后板子消失，再次拉杆板子出现
-                collision.transform.GetChild(0).gameObject.SetActive(isRobing ? true : false);
-                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[0] : sprites[1];
+                collision.transform.GetChild(0).gameObject.SetActive(isRobingState[collision.gameObject] ? false : true);
+                collision.GetComponent<SpriteRenderer>().sprite = isRobingState[collision.gameObject] ? sprites[0] : sprites[1];
             }
 
             //白色拉杆移动墙壁
             if (collision.name == "Rod_While_Map3")
             {
-                
+                isRobingState[collision.gameObject] = !isRobingState[collision.gameObject];
                 //使用墙壁移动
-                isMoveWall=!isMoveWall;
-                collision.GetComponent<SpriteRenderer>().sprite = isRobing ? sprites[4] : sprites[5];
+                isMoveWall = !isMoveWall;
+                collision.GetComponent<SpriteRenderer>().sprite = isRobingState[collision.gameObject] ? sprites[4] : sprites[5];
             }
 
 
@@ -223,6 +224,8 @@ public class GameObjectController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         CheckInteract(collision);
+
+        
     }
 
  
@@ -284,5 +287,8 @@ public class GameObjectController : MonoBehaviour
     }
 
 
-    
+    void CheckRod(Collider2D collision)
+    {
+       
+    }
 }
