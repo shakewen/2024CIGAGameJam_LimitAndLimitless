@@ -9,7 +9,7 @@ public class CartoonChange : MonoBehaviour
 {
     public Image CartoonImage;
     public Image CartoonImage2;
-    public Sprite[] Cartoon= new Sprite[7];
+    public Sprite[] Cartoon;
     public int Count = 0;
 
     public bool canClick = true;
@@ -40,16 +40,30 @@ public class CartoonChange : MonoBehaviour
             
             Count++;
 
-            CartoonImage.sprite =Cartoon[Count-1];
 
-            CartoonImage2.sprite = Cartoon[Count];
-            //设置为透明
-            AlphaValue = 0;
-            //开始淡入
-            isFadeColor = true;
-            //禁止点击
-            canClick = false;
-          }
+
+
+            if (Count >= Cartoon.Length)
+            {
+                StartCoroutine(LoadScene());
+
+                //防止协程多开
+                canClick = false;
+            }
+            else
+            {
+                CartoonImage.sprite = Cartoon[Count - 1];
+
+                CartoonImage2.sprite = Cartoon[Count];
+                //设置为透明
+                AlphaValue = 0;
+                //开始淡入
+                isFadeColor = true;
+                //禁止点击
+                canClick = false;
+            }
+
+        }
 
         if (isFadeColor)
         {
@@ -74,5 +88,11 @@ public class CartoonChange : MonoBehaviour
     void Update()
     {
         start_cartoon();
+    }
+
+    IEnumerator LoadScene()
+    {
+        yield return new WaitForSeconds(0.7f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

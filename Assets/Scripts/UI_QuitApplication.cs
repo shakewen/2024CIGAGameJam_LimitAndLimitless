@@ -15,7 +15,7 @@ public class UI_QuitApplication : MonoBehaviour
 
     void Start()
     {
-        gameOverButton = transform.Find("GameQuitButton").GetComponent<Button>();
+        gameOverButton = GetComponent<Button>();
         gameOverButton.onClick.AddListener(Gameover);
 
     }
