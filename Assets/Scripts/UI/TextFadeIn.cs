@@ -1,7 +1,9 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+
 
 public class TextFadeIn : MonoBehaviour
 {
@@ -16,98 +18,74 @@ public class TextFadeIn : MonoBehaviour
     public float fadeSpeed = 1;
     void Start()
     {
-        WorldCanvas = GameObject.Find("World Canvas");
+        WorldCanvas = GameObject.FindGameObjectWithTag("WorldCanvas");
+        
         for (int i = 0; i < WorldCanvas.transform.childCount; i++)
         {
             TMP_Text text = WorldCanvas.transform.GetChild(i).GetComponent<TMP_Text>();
+            text.DOFade(0, 0).SetEase(Ease.OutExpo);
             texts.Add(text);
             whatTextFadeIn[text] = false;
+            
         }
-      
+       
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
+       
 
-        if (collider.transform.CompareTag("WorldCanvas"))
+        if (texts != null)
         {
-            
             foreach (TMP_Text t in texts)
             {
-                if (t.name == collider.name)
+                if (t != null && t.name == collider.name)
                 {
-                   
-                    currentText = collider.GetComponent<TMP_Text>();
+
+                    currentText = t;
                     whatTextFadeIn[currentText] = true;
+
+                    //防止连开
+                    currentText.DOKill();
+                    currentText.DOFade(1, 0.5f).SetEase(Ease.InOutQuart);
                 }
             }
-
         }
-    }
 
+        
+    }
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.transform.CompareTag("WorldCanvas"))
-        {
 
+
+        if (texts != null)
+        {
             foreach (TMP_Text t in texts)
             {
-                if (t.name == collider.name)
+                if (t!=null&&t.name == collider.name)
                 {
-                    currentText = collider.GetComponent<TMP_Text>();
+                    currentText = t;
                     whatTextFadeIn[currentText] = false;
 
+                    //防止连开
+                    currentText.DOKill();
+                    currentText.DOFade(0, 0.5f).SetEase(Ease.InOutQuart);
 
                 }
             }
-
         }
-    }
-    void AddAlaph(bool whatToFade)
-    {
 
-           
-
-           
-           
-            if (whatToFade)
-                {
-                    whatTextStartFade[currentText] = true;
-                    if (whatTextStartFade[currentText])
-                    {
-                        Alaph += Time.deltaTime * fadeSpeed;
-                        currentText.color = new Color(currentText.color.r, currentText.color.g, currentText.color.b, Alaph);
-                        if (currentText.color.a >= 1)
-                        {
-                            whatTextStartFade[currentText] = false;
-                        }
-                    }
-
-                }
-                else
-                {
-
-                    if (!whatTextStartFade[currentText])
-                    {
-                        Alaph -= Time.deltaTime * fadeSpeed;
-                        currentText.color = new Color(currentText.color.r, currentText.color.g, currentText.color.b, Alaph);
-                        if (currentText.color.a <= 0)
-                        {
-                            whatTextStartFade[currentText] = true;
-                        }
-                    }
-                }
-            
         
-        
-
     }
 
-
-    private void FixedUpdate()
+    private void OnDestroy()
     {
-        if (currentText == null && whatTextFadeIn != null)
-            return;
+        currentText.DOKill();
 
-        AddAlaph(whatTextFadeIn[currentText]);
+        texts.Clear();
+        // 清理 whatTextFadeIn 和 whatTextStartFade 字典中的对象
+        whatTextFadeIn.Clear();
+        whatTextStartFade.Clear();
     }
+    
+
 }

@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
         isInteract = InputManager.GetJInput();
         isJump = InputManager.GetJumpInput();
 
+        isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         Jump();
 
         Skill();
@@ -84,7 +85,7 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        isGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        
 
        
 

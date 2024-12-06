@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|d:\\fork\\2024cigagamejam_limitandlimitless\\assets\\scripts\\ui\\textfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\textfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\setselfmaincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\setselfmaincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\changesceen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changesceen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\player\\skillchangecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\skillchangecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\cartoonend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\cartoonend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\ui_quitapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_quitapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\cartoon\\cartoonchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cartoon\\cartoonchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\ui\\menupic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menupic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\player\\gameobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\gameobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\assets\\scripts\\rescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A76B1C0-C1AA-7F10-EE31-0F9A12249C5E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetSelfMainCamera.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\SetSelfMainCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SetSelfMainCamera.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\SetSelfMainCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SetSelfMainCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:00:17.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeSceen.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\ChangeSceen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeSceen.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\ChangeSceen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeSceen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T11:50:34.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SkillChangeColor.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\SkillChangeColor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SkillChangeColor.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\SkillChangeColor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\SkillChangeColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T11:50:20.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UI_QuitApplication.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI_QuitApplication.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI_QuitApplication.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI_QuitApplication.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI_QuitApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T10:15:17.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartoonEnd.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\CartoonEnd.cs",
+              "RelativeDocumentMoniker": "Assets\\CartoonEnd.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\CartoonEnd.cs",
+              "RelativeToolTip": "Assets\\CartoonEnd.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAUwHIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:06:47.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UI_Login.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI_Login.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Login.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI_Login.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI_Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T21:26:39.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exit.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Exit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T20:53:32.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextFadeIn.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\TextFadeIn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TextFadeIn.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\TextFadeIn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TextFadeIn.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T17:19:31.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReScene.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\ReScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ReScene.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\ReScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ReScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T17:14:38.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuPic.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\MenuPic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuPic.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\UI\\MenuPic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MenuPic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T04:31:06.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartoonChange.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cartoon\\CartoonChange.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA0wFoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T04:29:36.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameObjectController.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\GameObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\GameObjectController.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\GameObjectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\GameObjectController.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAywNQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T02:59:29.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\Fork\\2024CIGAGameJam_LimitAndLimitless\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:14:51.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
